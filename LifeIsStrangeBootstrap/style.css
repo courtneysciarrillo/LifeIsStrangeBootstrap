@@ -1,27 +1,42 @@
-﻿.logo {
-    display: flex;
+﻿#logo {
     background-color: lightpink;
+    padding: 0;
 }
 
-nav {
+#logo img {
+    height: 60%;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+#nav {
     background-color: darkred;
+    padding-left: 0;
+    padding-right: 0;
 }
 
-    nav li a, nav li a:active, nav li a:hover {
-        color: white;
-        font-size: 1.5rem;
-        font-family: 'Times New Roman', Times, serif;
-        text-decoration: none;
-        text-transform: capitalize;
-    }
+.navbar, .navbar-expand-sm {
+    padding-left: 0;
+}
 
-.main {
+.navbar-nav {
+    padding-left: 15px;
+}
+
+a.nav-link {
+    color: white;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 0!important;
+    padding-right: 0!important;
+    margin-right: 15px;
+}
+
+#main {
     display: flex;
-    height: 75vh;
     justify-content: flex-end;
     align-items: center;
-    background-image: url(https://github.com/WeCanCodeIT/Bootstrap-LifeIsStrange/blob/master/images/junkyard.jpg?raw=true);
-    background-repeat: no-repeat;
+    height: 80vh;
+    background-image: url('junkyard.jpg');
     background-size: cover;
-    padding-right: 40px;
 }
